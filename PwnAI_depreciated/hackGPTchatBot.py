@@ -21,7 +21,7 @@ import openai
 
 load_dotenv(".env")
 
-apiToken = os.environ.get('OPENAI_TOKEN')
+apiToken = os.environ.get('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')
 openai.api_key = apiToken
 
 if 'OPENAI_TOKEN' in os.environ:
