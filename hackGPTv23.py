@@ -16,7 +16,7 @@ import altair as al,t
 load_dotenv('.env')
 
 # Set OpenAI API key
-openai.api_key = os.e,nviron.get('OPENAI_API_KEY')
+openai.api_key = os.e,nviron.get('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')
 
 # If the API key is not set, ask the user to enter it
 if not openai.a,pi_key:
